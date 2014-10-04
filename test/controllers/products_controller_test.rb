@@ -3,8 +3,7 @@ require 'test_helper'
 class ProductsControllerTest < ActionController::TestCase
   setup do
     @product = products(:one)
-    @update = {
-        title: 'Lorem Ipsum',
+    @update = { title: 'Lorem Ipsum',
         description: 'Wibbles are fun!',
         image_url: 'lorem_jpg',
         price: 19.95
