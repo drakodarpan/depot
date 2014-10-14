@@ -18,3 +18,12 @@ Product.create!(title: 'CoffeeScript',
       image_url: 'cs.jpg',
       price: 36.00)
 # . . .
+Product.create!(title: "Programming Ruby 1.9 & 2.0",
+                description: %{<p>This is a great, updated version of the now-classic Programming Ruby series from The Pragmatic Programmers. The book is a great reference covering the whole of ruby and many related features. This is the only current Ruby book that attempts to cover everything Ruby. The book is very well organized with topics in outline-form subsections making it easy to pinpoint one's exact learning or reference needs.</p>},
+                image_url: 'Ruby 1.9 & 2.0.jpg',
+                price: 39.52)
+# . . .
+Product.create!(title: "Rails Test Prescriptions",
+                description: %{<p>Rails Test Prescriptions is a comprehensive guide to testing Rails applications, covering Test-Driven Development from both a theoretical perspective (why to test) and from a practical perspective (how to test effectively). It covers the core Rails testing tools and procedures for Rails 2 and Rails 3, and introduces popular</p>},
+                image_url: 'Rails Test.jpg',
+                price: 34.95)
